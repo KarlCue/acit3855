@@ -24,7 +24,7 @@ services:
   depends_on:
   - "zookeeper"
  db:
-  image: mysql:5.7
+  image: mysql
   restart: always
   environment:
    MYSQL_DATABASE: 'FantasyDraft'
